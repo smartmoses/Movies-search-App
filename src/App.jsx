@@ -32,6 +32,7 @@ const App = () => {
           placeholder="Search for movies"
         />
         <img
+        
           src={SearchIcon}
           alt="search"
           onClick={() => searchMovies(searchTerm)}
@@ -52,6 +53,7 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;
 
